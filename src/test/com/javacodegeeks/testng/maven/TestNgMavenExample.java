@@ -26,7 +26,6 @@ public class TestNgMavenExample {
 		jse = (JavascriptExecutor)webDriver;
 	}
 
-
 	@Test
 	public void exampleOfTestNgMaven() {
 		webDriver.get("http://www.google.com");
