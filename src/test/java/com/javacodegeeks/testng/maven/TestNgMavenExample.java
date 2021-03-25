@@ -1,7 +1,7 @@
 package com.javacodegeeks.testng.maven;
 
 import org.testng.annotations.Test;
-
+@Test
 public class TestNgMavenExample {
 
 	@Test
