@@ -18,6 +18,7 @@ public class TestNgMavenExample {
 
     public WebDriver webDriver;
 
+
     @BeforeClass
     public void initDriver(){
         System.out.printf("im first");
