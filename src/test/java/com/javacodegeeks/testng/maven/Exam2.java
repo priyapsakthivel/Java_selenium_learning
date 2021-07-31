@@ -16,6 +16,7 @@ public class Exam2 {
         if (a % 2 != 0) {
             return false;
         }
+
         return true;
     }
 }
