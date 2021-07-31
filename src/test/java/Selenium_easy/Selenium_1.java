@@ -15,7 +15,7 @@ public class Selenium_1 {
     }
     public WebDriver launch(){
         File file= new File("P:\\Webdrivers\\edgedriver.exe");
-        System.setProperty("webdriver.edge.driver",file.getAbsolutePath());
+  //////      System.setProperty("webdriver.edge.driver",file.getAbsolutePath());
         WebDriver driver= new EdgeDriver();
         driver.get("https://www.seleniumeasy.com/test/table-pagination-demo.html");
         driver.manage().window().maximize();
