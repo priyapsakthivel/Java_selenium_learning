@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="10727" started-at="2021-07-20T15:17:47Z" finished-at="2021-07-20T15:17:57Z">
+    <groups>
+      <group name="amazon">
+        <method signature="TestNgMavenExample.verifyProductPrice()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample@17a2457]" name="verifyProductPrice" class="com.javacodegeeks.testng.maven.TestNgMavenExample"/>
+      </group> <!-- amazon -->
+      <group name="trial1">
+        <method signature="TestNgMavenExample1.met13()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met13" class="com.javacodegeeks.testng.maven.TestNgMavenExample1"/>
+        <method signature="TestNgMavenExample1.met15()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met15" class="com.javacodegeeks.testng.maven.TestNgMavenExample1"/>
+      </group> <!-- trial1 -->
+      <group name="training1">
+        <method signature="TestNgMavenExample1.met14()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met14" class="com.javacodegeeks.testng.maven.TestNgMavenExample1"/>
+        <method signature="TestNgMavenExample1.met4()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met4" class="com.javacodegeeks.testng.maven.TestNgMavenExample1"/>
+      </group> <!-- training1 -->
+      <group name="google">
+        <method signature="TestNgMavenExample.verifyPageUrl()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample@17a2457]" name="verifyPageUrl" class="com.javacodegeeks.testng.maven.TestNgMavenExample"/>
+      </group> <!-- google -->
+    </groups>
+    <test name="Command line test" duration-ms="10727" started-at="2021-07-20T15:17:47Z" finished-at="2021-07-20T15:17:57Z">
+      <class name="com.javacodegeeks.testng.maven.TestNgMavenExample">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample@17a2457]" name="initDriver" is-config="true" duration-ms="3732" started-at="2021-07-20T20:47:47Z" finished-at="2021-07-20T20:47:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="verifyProductPrice()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample@17a2457]" name="verifyProductPrice" duration-ms="4971" started-at="2021-07-20T20:47:50Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPrice -->
+        <test-method status="PASS" signature="verifyPageUrl()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample@17a2457]" name="verifyPageUrl" duration-ms="1996" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageUrl -->
+        <test-method status="PASS" signature="byeDriver()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample@17a2457]" name="byeDriver" is-config="true" duration-ms="1" started-at="2021-07-20T20:47:57Z" finished-at="2021-07-20T20:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byeDriver -->
+        <test-method status="PASS" signature="met3()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met3" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:57Z" finished-at="2021-07-20T20:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met3 -->
+        <test-method status="PASS" signature="met23()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met23" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:57Z" finished-at="2021-07-20T20:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met23 -->
+        <test-method status="PASS" signature="met22()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met22" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:57Z" finished-at="2021-07-20T20:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met22 -->
+        <test-method status="PASS" signature="met6()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met6" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:57Z" finished-at="2021-07-20T20:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met6 -->
+      </class> <!-- com.javacodegeeks.testng.maven.TestNgMavenExample -->
+      <class name="com.javacodegeeks.testng.maven.TestNgMavenExample1">
+        <test-method status="PASS" signature="met10()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met10" is-config="true" duration-ms="10" started-at="2021-07-20T20:47:47Z" finished-at="2021-07-20T20:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met10 -->
+        <test-method status="PASS" signature="met9()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met9" is-config="true" duration-ms="1" started-at="2021-07-20T20:47:47Z" finished-at="2021-07-20T20:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met9 -->
+        <test-method status="PASS" signature="met2()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met2" is-config="true" duration-ms="2" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met2 -->
+        <test-method status="PASS" signature="met8()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met8" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met8 -->
+        <test-method status="PASS" signature="met5()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met5" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met5 -->
+        <test-method status="PASS" signature="met1()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met1" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met1 -->
+        <test-method status="PASS" signature="met7()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met7" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met7 -->
+        <test-method status="PASS" signature="met21()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met21" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met21 -->
+        <test-method status="PASS" signature="met20()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met20" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met20 -->
+        <test-method status="PASS" signature="met8()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met8" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met8 -->
+        <test-method status="PASS" signature="met7()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met7" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met7 -->
+        <test-method status="PASS" signature="met13()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met13" duration-ms="1" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met13 -->
+        <test-method status="PASS" signature="met20()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met20" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met20 -->
+        <test-method status="PASS" signature="met21()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met21" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met21 -->
+        <test-method status="PASS" signature="met7()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met7" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met7 -->
+        <test-method status="PASS" signature="met8()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met8" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met8 -->
+        <test-method status="PASS" signature="met14()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met14" duration-ms="1" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met14 -->
+        <test-method status="PASS" signature="met21()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met21" is-config="true" duration-ms="1" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met21 -->
+        <test-method status="PASS" signature="met20()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met20" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met20 -->
+        <test-method status="PASS" signature="met7()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met7" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met7 -->
+        <test-method status="PASS" signature="met8()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met8" is-config="true" duration-ms="1" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met8 -->
+        <test-method status="PASS" signature="met15()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met15" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met15 -->
+        <test-method status="PASS" signature="met20()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met20" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met20 -->
+        <test-method status="PASS" signature="met21()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met21" is-config="true" duration-ms="1" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met21 -->
+        <test-method status="PASS" signature="met7()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met7" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met7 -->
+        <test-method status="PASS" signature="met20()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met20" is-config="true" duration-ms="1" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met20 -->
+        <test-method status="PASS" signature="met4()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met4" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met4 -->
+        <test-method status="PASS" signature="met8()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met8" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met8 -->
+        <test-method status="PASS" signature="met25()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met25" is-config="true" duration-ms="1" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met25 -->
+        <test-method status="PASS" signature="met24()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met24" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met24 -->
+        <test-method status="PASS" signature="met21()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met21" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:55Z" finished-at="2021-07-20T20:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met21 -->
+        <test-method status="PASS" signature="met18()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met18" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:58Z" finished-at="2021-07-20T20:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met18 -->
+        <test-method status="PASS" signature="met19()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample1@1adae5d]" name="met19" is-config="true" duration-ms="0" started-at="2021-07-20T20:47:58Z" finished-at="2021-07-20T20:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- met19 -->
+      </class> <!-- com.javacodegeeks.testng.maven.TestNgMavenExample1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
