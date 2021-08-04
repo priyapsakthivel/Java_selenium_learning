@@ -13,8 +13,11 @@ public class Exam4 {
     //    return has the capability to even stop loops
     public static void print2Tables() {
         int m[] = {1, 2, 3, 4, 56, 66, 65, 454, 5454};
-        for (int i = 1; i < m.length; i++) {
-            System.out.println(m[m.length - i]);
+        int sum = 0;
+        for (int i = 0; i < m.length; i++) {
+            sum = m[i] + sum;
         }
+
+        System.out.println(sum/m.length);
     }
 }
