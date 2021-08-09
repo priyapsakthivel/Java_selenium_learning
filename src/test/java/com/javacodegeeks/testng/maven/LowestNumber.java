@@ -2,12 +2,11 @@ package com.javacodegeeks.testng.maven;
 
 public class LowestNumber {
     public static void main(String[] args) {
-        int []num={1,2,3,3,4,5,6,7,7,7,765432,123};
-        int low=0;
-        for (int i=0;i<num.length;i++)
+        int []num={11,10,1233,33,214,5,6,17,7,17,765432,1};
+        int low=num[0];
+        for (int i=1;i<num.length;i++)
         {
-            if(num[i]< low && low!=0){
-
+            if(num[i]< low){
                 low=num[i];
             }
         }

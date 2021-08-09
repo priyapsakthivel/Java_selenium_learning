@@ -4,13 +4,13 @@ public class NeglectUpperCase {
     public static void main(String[] args) {
         String upperCase="MyTeacherMohan";
         char[] array=upperCase.toCharArray();
-        String uppercase1=upperCase.toUpperCase();
+        String value = "";
         for(int i =0;i<array.length;i++) {
             char element=array[i];
-            if (element.equals(uppercase1)) {
-                continue;
-            }
+            if(Character.isLowerCase(element)){
+                value =  value.concat(String.valueOf(element));
+          }
         }
-        System.out.println();
+        System.out.println(value);
     }
 }
