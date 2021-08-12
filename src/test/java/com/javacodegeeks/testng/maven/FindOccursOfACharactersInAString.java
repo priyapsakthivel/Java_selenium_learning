@@ -5,12 +5,14 @@ import java.util.Map;
 
 public class FindOccursOfACharactersInAString {
     public static void main(String[] args) {
-         String words="qwertyqwertyuipoiuytrewzsxdfghjkmnbvcxdz";
-        for (Character i:wordsarr) {
-            if (i.equals("q")){
-
-            }
-        }
+         String words="qwertyqwertyuipoiuytreweeeeeezsxdfghjkmnbvcxdz";
+         String[]array=words.split("");
+         int count=0;
+         for (int i=0;i<array.length;i++) {
+             if (array[i].contains("e")) {
+               count++;
+             }
+         }  System.out.println("we got e "+count+" times");
 
     }
 }
