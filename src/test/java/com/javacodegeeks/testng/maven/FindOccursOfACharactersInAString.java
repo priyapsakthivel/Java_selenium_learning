@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class FindOccursOfACharactersInAString {
     public static void main(String[] args) {
-         String words="qwertyqwertyuipoiuytreweeeeeezsxdfghjkmnbvcxdz";
-         String[]array=words.split("");
+        String length="qwertyuiolkjhgfdsazXCVBNJKLPOI8U7Y6T5REWQWERTYUIOLMNBVCX";
+        String[]array= length.split("");
          int count=0;
          for (int i=0;i<array.length;i++) {
              if (array[i].contains("e")) {
