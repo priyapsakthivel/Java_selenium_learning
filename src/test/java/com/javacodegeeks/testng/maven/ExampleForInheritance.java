@@ -5,10 +5,10 @@ public class ExampleForInheritance {
         int a;
         int b;
         ExampleForInheritance example= new ExampleForInheritance();
-        example.add(a,b);
+        example.add();
     }
 
-    public void add(10,12) {
+    public void add() {
         System.out.println(a+b);
 
     }
