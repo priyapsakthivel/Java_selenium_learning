@@ -7,6 +7,7 @@ public class ExampleForInheritance {
         ExampleForInheritanceChild child = new ExampleForInheritanceChild();
         child.age();
         child.name();
+
     }
 
     public void name() {
