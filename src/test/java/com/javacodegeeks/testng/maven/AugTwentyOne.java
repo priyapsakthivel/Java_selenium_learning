@@ -2,18 +2,21 @@ package com.javacodegeeks.testng.maven;
 
 public class AugTwentyOne {
     public static void main(String[] args) {
-        String name="qwertasaayuipkaaaajhgfdsaqwertaaaayuiopasdfghjkl";
-        String[]namearray=name.split("");
-        int count=0;
-        for (int i = 0; i < namearray.length; i++) {
-            if (namearray[i].contains("a")||namearray[i].contains("e")||namearray[i].contains("i")||namearray[i].contains("o")||namearray[i].contains("u")){
-                count++;
-                System.out.println("the String has "+count+"numbers of vowels");
+    int[]num={1,321,1234,543,123456,5432,2134,2134543,123,5432,123,2134543};
+    int firstlargest=0;
+    int secondlargest=0;
+        for (int i = 0; i < num.length ; i++) {
+            if (num[i]>firstlargest){
+                secondlargest=firstlargest;
+                firstlargest=num[i];
             }
-            else{
-                System.out.println("the above string has no vowels");
+            else if(num[i]>secondlargest && num[i]!=firstlargest){
+                secondlargest=num[i];
             }
+
         }
+        System.out.println("first largest number = "+firstlargest);
+        System.out.println("second largest number = "+secondlargest);
     }
 }
 
@@ -46,3 +49,16 @@ String name="qwertasaayuipkaaaajhgfdsaqwertaaaayuiopasdfghjkl";
         count++;
         }
         }System.out.println(count);*/
+/*
+String name="qwertasaayuipkaaaajhgfdsaqwertaaaayuiopasdfghjkl";
+    String[]namearray=name.split("");
+    int count=0;
+        for (int i = 0; i < namearray.length; i++) {
+        if (namearray[i].contains("a")||namearray[i].contains("e")||namearray[i].contains("i")||namearray[i].contains("o")||namearray[i].contains("u")){
+        count++;
+        System.out.println("the String has "+count+"numbers of vowels");
+        }
+        else{
+        System.out.println("the above string has no vowels");
+        }
+        }*/
