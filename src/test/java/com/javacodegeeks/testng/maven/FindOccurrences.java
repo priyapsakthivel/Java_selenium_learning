@@ -16,7 +16,7 @@ public class FindOccurrences {
         for (String s : strArr) {
             if(hashMap.containsKey(s)){
                 int m = hashMap.get(s);
-                hashMap.put(s,m++);;
+                hashMap.put(s,m++);
             }else{
                 hashMap.put(s,1);
             }
