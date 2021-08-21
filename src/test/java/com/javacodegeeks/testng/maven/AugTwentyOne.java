@@ -2,14 +2,18 @@ package com.javacodegeeks.testng.maven;
 
 public class AugTwentyOne {
     public static void main(String[] args) {
-    String name="qwertasaayuipkaaaajhgfdsaqwertaaaayuiopasdfghjkl";
-    String[]namearray=name.split("");
-    int count=0;
+        String name="qwertasaayuipkaaaajhgfdsaqwertaaaayuiopasdfghjkl";
+        String[]namearray=name.split("");
+        int count=0;
         for (int i = 0; i < namearray.length; i++) {
-            if (namearray[i].contains("a")){
+            if (namearray[i].contains("a")||namearray[i].contains("e")||namearray[i].contains("i")||namearray[i].contains("o")||namearray[i].contains("u")){
                 count++;
+                System.out.println("the String has "+count+"numbers of vowels");
             }
-        }System.out.println(count);
+            else{
+                System.out.println("the above string has no vowels");
+            }
+        }
     }
 }
 
@@ -33,3 +37,12 @@ int[] num={1234,1,2,3,4,1,5,52,54,987,12};
         }
         }
         System.out.println(count);*/
+/*
+String name="qwertasaayuipkaaaajhgfdsaqwertaaaayuiopasdfghjkl";
+    String[]namearray=name.split("");
+    int count=0;
+        for (int i = 0; i < namearray.length; i++) {
+        if (namearray[i].contains("a")){
+        count++;
+        }
+        }System.out.println(count);*/
