@@ -2,14 +2,14 @@ package com.javacodegeeks.testng.maven;
 
 import java.util.Scanner;
 
-public class AugTwentyTwo {
+public class AugTwentyTwo extends AugTwentyOne{
     public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
-        int num=scanner.nextInt();
-        int div=scanner.nextInt();
-
-    int reminder=num%div;
-    System.out.println(reminder);
+    AugTwentyOne augTwentyOne= new AugTwentyTwo();
+    augTwentyOne.van();
+    augTwentyOne.van();
+    }
+    public void auto(){
+        System.out.println("auto");
     }
 }
 
@@ -39,3 +39,10 @@ public class AugTwentyTwo {
         }
         System.out.println("first="+first);
         System.out.println("second="+second);*/
+/*
+    Scanner scanner= new Scanner(System.in);
+    int num=scanner.nextInt();
+    int div=scanner.nextInt();
+
+    int reminder=num%div;
+    System.out.println(reminder);*/

@@ -18,6 +18,9 @@ public class AugTwentyOne {
         System.out.println("first largest number = "+firstlargest);
         System.out.println("second largest number = "+secondlargest);
     }
+    public  void van(){
+        System.out.println("van");
+    }
 }
 
 
