@@ -1,18 +1,27 @@
 package com.javacodegeeks.testng.maven;
 
+import java.util.Scanner;
+
 public class AugTwentyTwo {
     public static void main(String[] args) {
-    int num=12;
-    if (num%2==0){
-        System.out.println("its even");
-    }
-    else{
-        System.out.println("its odd");
-    }
+        Scanner scanner= new Scanner(System.in);
+        int num=scanner.nextInt();
+        int div=scanner.nextInt();
+
+    int reminder=num%div;
+    System.out.println(reminder);
     }
 }
 
-
+/*
+    int num=12;
+    if (num%2==0){
+            System.out.println("its even");
+            }
+            else{
+            System.out.println("its odd");
+            }
+*/
 
 /*
     int []num={1,1,2,2,333,1231,3,2};
