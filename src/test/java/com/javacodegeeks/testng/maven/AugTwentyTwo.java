@@ -4,14 +4,19 @@ import java.util.Scanner;
 
 public class AugTwentyTwo extends AugTwentyOne{
     public static void main(String[] args) {
-    AugTwentyOne augTwentyOne= new AugTwentyTwo();
-    augTwentyOne.van();
-    augTwentyOne.van();
-    }
-    public void auto(){
-        System.out.println("auto");
+
     }
 }
+
+
+
+/*    AugTwentyOne augTwentyOne= new AugTwentyTwo();
+    augTwentyOne.van();
+            augTwentyOne.van();
+            }
+public void auto(){
+        System.out.println("auto");
+        }*/
 
 /*
     int num=12;
