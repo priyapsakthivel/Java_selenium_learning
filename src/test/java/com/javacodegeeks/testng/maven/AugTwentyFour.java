@@ -20,6 +20,7 @@ public class AugTwentyFour{
     list.add(augMod1);
 
         for (AugMod listarray:list) {
+
             System.out.println(listarray.getName());
             System.out.println(listarray.getAge());
             System.out.println(listarray.getGender());
