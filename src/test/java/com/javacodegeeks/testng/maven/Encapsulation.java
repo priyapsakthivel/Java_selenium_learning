@@ -1,6 +1,6 @@
 package com.javacodegeeks.testng.maven;
 
-public class Encapsulation {
+public class  Encapsulation {
 
 
     public String publicName;
