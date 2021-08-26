@@ -1,6 +1,6 @@
 package com.javacodegeeks.testng.maven;
 
-public class AugMod{
+public interface AugMod{
     private String name;
     private int age;
     private char gender;
