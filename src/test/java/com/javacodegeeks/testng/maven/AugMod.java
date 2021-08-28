@@ -4,6 +4,7 @@ public interface AugMod{
     private String name;
     private int age;
     private char gender;
+    private String place;
 
     public String getName() {
         return name;
