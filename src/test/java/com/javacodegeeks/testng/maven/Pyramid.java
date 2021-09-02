@@ -6,8 +6,26 @@ public class Pyramid {
         for (int i = 5; i > 1; i--) {
             for (int j = 1; j < i; j++) {
                 System.out.print("*");
-            }            System.out.println(" ");
+            }
+            System.out.println(" ");
         }
+        Pyramid pyramid = new Pyramid();
+        pyramid.model(pyramid);
+    }
+
+    public String car() {
+        System.out.println("audi");
+        return "audi";
+    }
+
+    public String colour() {
+        System.out.println("black");
+        return "";
+    }
+
+    public Object model(Object pyramid) {
+        System.out.println("q8");
+        return pyramid;
     }
 }
 

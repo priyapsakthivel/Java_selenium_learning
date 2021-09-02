@@ -1,10 +1,15 @@
 package com.javacodegeeks.testng.maven;
 
-public class Testing1 {
+public class Testing1 extends Pyramid{
     public static void main(String[] args) {
-        int num= 1234;
-        if(num%2==0){
+        Pyramid pyramid= new Testing1();
+        String cars=pyramid.car();
+       Object models=pyramid.model("bmw");
+        System.out.println(cars+models);
 
-        }
+    }
+    public String personName(){
+        System.out.println("priya");
+        return "";
     }
 }

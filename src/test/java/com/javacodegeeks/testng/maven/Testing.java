@@ -9,7 +9,8 @@ public class Testing {
             int num = scanner.nextInt();
         Testing testing = new Testing();
         testing.oddEven(num);
-    }}
+    }
+    }
 
     public Integer oddEven(int num) {
         if (num % 2 == 0) {
