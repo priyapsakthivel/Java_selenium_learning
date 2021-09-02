@@ -2,14 +2,16 @@ package com.javacodegeeks.testng.maven;
 
 public class Testing {
     public static void main(String[] args) {
-        int[]arr={2222,5,1,22,33,11112,34432,1234,1321,12322};
-        int count=arr[0];
-
+        String vow = "qwertyuiopasdfghjklzxcvbnmqwertyuioauisdfghjk";
+        String[] arr = vow.split("");
+        int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i]<count){
-                count=arr[i];
+            if (arr[i].contains("a") || arr[i].contains("e") || arr[i].contains("i") || arr[i].contains("o") || arr[i].contains("u")) {
+                count++;
             }
-        }
-        System.out.println(count);
+        } System.out.println("it contains vowels:" + count);
+
+        System.out.println("total number of letters: "+vow.length());
+
     }
 }
