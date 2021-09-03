@@ -2,7 +2,7 @@ package com.javacodegeeks.testng.maven;
 
 import java.util.Scanner;
 
-public class Testing {
+public class Testing implements Modells {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < 3; i++) {
@@ -18,6 +18,18 @@ public class Testing {
         } else {
             System.out.println(num + "is an odd number");
         }
+        return 0;
+    }
+
+    @Override
+    public String name() {
+        System.out.println("qwertyuio");
+        return null;
+    }
+
+    @Override
+    public int age() {
+        System.out.println(1234);
         return 0;
     }
 }
