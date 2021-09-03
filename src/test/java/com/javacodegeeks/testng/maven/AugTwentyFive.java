@@ -1,6 +1,6 @@
 package com.javacodegeeks.testng.maven;
 
-public class AugTwentyFive implements InterModel{
+public class AugTwentyFive {
     public static void main(String[] args) {
     AugTwentyFive obj = new AugTwentyFive();
     obj.name();
