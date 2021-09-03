@@ -23,7 +23,7 @@ public class Testing implements Modells {
 
     @Override
     public String name() {
-        System.out.println("qwertyuio");
+        System.out.println("qwertyui");
         return null;
     }
 
