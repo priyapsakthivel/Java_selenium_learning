@@ -29,7 +29,7 @@ public class Testing implements Modells {
 
     @Override
     public int age() {
-        System.out.println(1234);
+        System.out.println(12345);
         return 0;
     }
 }
