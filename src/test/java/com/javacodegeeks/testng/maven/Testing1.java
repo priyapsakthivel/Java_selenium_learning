@@ -12,4 +12,8 @@ public class Testing1 extends Pyramid{
         System.out.println("priya");
         return "";
     }
+    public int age(){
+        System.out.println(546);
+        return 0;
+    }
 }
