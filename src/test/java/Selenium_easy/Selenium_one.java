@@ -10,6 +10,6 @@ public class Selenium_one {
         File file = new File("P:\\Webdrivers\\edgedriver.exe");
         System.setProperty("webdriver.driver.edge",file.getAbsolutePath());
         WebDriver driver= new EdgeDriver();
-        driver.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html");
+        driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
     }
 }

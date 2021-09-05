@@ -7,12 +7,10 @@ public class AugTwentyFive {
     obj.age();
     }
 
-    @Override
     public String name() {
         System.out.println("Adhi");
         return "";
     }
-    @Override
     public int age() {
         System.out.println(5);
         return 0;
