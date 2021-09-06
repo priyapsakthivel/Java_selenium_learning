@@ -1,5 +1,6 @@
 package Selenium_easy;
 
+import javafx.scene.control.ScrollToEvent;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ public class Selenium_one {
         driver.manage().window().maximize();
         Thread.sleep(5000);
         driver.findElement(By.id("at-cv-lightbox-close")).click();
-        JavascriptExecutor javascriptExecutor= (JavascriptExecutor)driver;
+        JavascriptExecutor jse= (JavascriptExecutor)driver;
+        jse.executeScript("scroll(0,100)");
     }
 }
