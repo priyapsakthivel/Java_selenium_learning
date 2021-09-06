@@ -1,6 +1,7 @@
 package Selenium_easy;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
@@ -15,5 +16,6 @@ public class Selenium_one {
         driver.manage().window().maximize();
         Thread.sleep(5000);
         driver.findElement(By.id("at-cv-lightbox-close")).click();
+        JavascriptExecutor javascriptExecutor= (JavascriptExecutor)driver;
     }
 }
