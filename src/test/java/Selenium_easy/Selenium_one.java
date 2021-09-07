@@ -21,6 +21,8 @@ public class Selenium_one {
         jse.executeScript("scroll(0,200)");
         driver.findElement(By.id("user-message")).sendKeys("alphabets");
         driver.findElement(By.xpath("//*[@id=\"get-input\"]/button")).click();
-        driver.findElement()
+        String content=driver.findElement(By.id("display")).getText();
+        System.out.println(content);
+
     }
 }
