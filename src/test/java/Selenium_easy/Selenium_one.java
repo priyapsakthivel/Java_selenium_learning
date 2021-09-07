@@ -18,6 +18,7 @@ public class Selenium_one {
         Thread.sleep(5000);
         driver.findElement(By.id("at-cv-lightbox-close")).click();
         JavascriptExecutor jse= (JavascriptExecutor)driver;
-        jse.executeScript("scroll(0,100)");
+        jse.executeScript("scroll(0,200)");
+        driver.findElement(By.id("user-message")).sendKeys("alphabets");
     }
 }
