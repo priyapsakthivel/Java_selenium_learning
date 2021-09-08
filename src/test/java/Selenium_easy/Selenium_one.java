@@ -28,7 +28,9 @@ public class Selenium_one {
         driver.findElement(By.id("sum1")).sendKeys("12345");
         driver.findElement(By.id("sum2")).sendKeys("23456");
         Thread.sleep(300);
-
+        driver.findElement(By.xpath("//*[@id=\"gettotal\"]/button")).click();
+        String totalSum=driver.findElement(By.id("displayvalue")).getText();
+        System.out.println(totalSum);
 
     }
 }
