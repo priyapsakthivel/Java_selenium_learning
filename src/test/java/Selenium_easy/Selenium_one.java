@@ -31,6 +31,9 @@ public class Selenium_one {
         driver.findElement(By.xpath("//*[@id=\"gettotal\"]/button")).click();
         String totalSum=driver.findElement(By.id("displayvalue")).getText();
         System.out.println(totalSum);
+        Thread.sleep(5000);
+        driver.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html");
+
 
     }
 }
