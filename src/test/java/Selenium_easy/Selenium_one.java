@@ -33,6 +33,9 @@ public class Selenium_one {
         System.out.println(totalSum);
         Thread.sleep(5000);
         driver.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html");
+        Thread.sleep(200);
+        driver.findElement(By.id("isAgeSelected")).click();
+        driver.findElement(By.id("txtAge")).getText();
 
 
     }
