@@ -35,7 +35,8 @@ public class Selenium_one {
         driver.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html");
         Thread.sleep(200);
         driver.findElement(By.id("isAgeSelected")).click();
-        driver.findElement(By.id("txtAge")).getText();
+        String msg_displayed= driver.findElement(By.id("txtAge")).getText();
+        System.out.println(msg_displayed);
 
 
     }
