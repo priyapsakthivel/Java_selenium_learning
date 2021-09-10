@@ -37,7 +37,5 @@ public class Selenium_one {
         driver.findElement(By.id("isAgeSelected")).click();
         String msg_displayed= driver.findElement(By.id("txtAge")).getText();
         System.out.println(msg_displayed);
-
-
     }
 }
