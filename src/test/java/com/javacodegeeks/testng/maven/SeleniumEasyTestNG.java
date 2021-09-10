@@ -15,10 +15,10 @@ public class SeleniumEasyTestNG {
     public WebDriver driver;
 
     @BeforeTest
-    public void launchDriver(){
-        File file = new File("P:\\Webdrivers\\edgedriver.exe");
-        System.setProperty("webdriver.edge.driver",file.getAbsolutePath());
-        WebDriver driver= new EdgeDriver();
+    public void launchDriver() throws InterruptedException {
+        System.setProperty("webdriver.edge.driver","P:\\Webdrivers\\edgedriver.exe");
+        driver= new EdgeDriver();
+        Thread.sleep(10000);
     }
 
     @Test
