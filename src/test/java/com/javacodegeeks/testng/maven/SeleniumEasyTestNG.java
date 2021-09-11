@@ -22,7 +22,7 @@ public class SeleniumEasyTestNG {
     }
 
     @Test
-    public WebDriver getDriver() throws InterruptedException {
+    public WebDriver seleniumOne() throws InterruptedException {
         driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
         driver.manage().window().maximize();
         Thread.sleep(5000);
@@ -39,4 +39,21 @@ public class SeleniumEasyTestNG {
         Assert.assertEquals(message,content);
         return driver;
     }
-}
+    @Test
+    public WebDriver seleniumTwo(WebDriver seleniumOne) throws InterruptedException {
+        jse.executeScript("scrollTo(0,300)");
+        int sum1=12345;
+        int sum2= 23456;
+        driver.findElement(By.id("sum1")).sendKeys("12345");
+        driver.findElement(By.id("sum2")).sendKeys("23456");
+        Thread.sleep(300);
+        driver.findElement(By.xpath("//*[@id=\"gettotal\"]/button")).click();
+        String totalSum=driver.findElement(By.id("displayvalue")).getText();
+        System.out.println(totalSum);
+        Thread.sleep(5000);
+        return driver;
+
+    }
+
+
+    }
