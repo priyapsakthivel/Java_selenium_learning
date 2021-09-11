@@ -12,14 +12,16 @@ import java.io.File;
 import java.util.Scanner;
 
 public class SeleniumEasyTestNG {
-    public void launch(WebDriver launchDriver) throws InterruptedException {
+    public WebDriver launch(WebDriver launchDriver) throws InterruptedException {
        SeleniumEasyConstants constants= new SeleniumEasyConstants();
        WebDriver driver=constants.launchDriver();
+        return driver;
+
     }
 
 
         @Test
-    public WebDriver seleniumOne() throws InterruptedException {
+    public WebDriver seleniumOne(WebDriver launch) throws InterruptedException {
         driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
         driver.manage().window().maximize();
         Thread.sleep(5000);
