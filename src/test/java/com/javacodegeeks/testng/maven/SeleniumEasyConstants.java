@@ -9,5 +9,6 @@ public class SeleniumEasyConstants{
     public WebDriver launchDriver() throws InterruptedException {
         System.setProperty("webdriver.edge.driver", "P:\\Webdrivers\\edgedriver.exe");
         driver = new EdgeDriver();
+        return driver;
     }
 }

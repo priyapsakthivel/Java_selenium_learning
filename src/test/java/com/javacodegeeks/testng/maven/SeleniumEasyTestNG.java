@@ -15,12 +15,11 @@ public class SeleniumEasyTestNG {
     public WebDriver launch(WebDriver launchDriver) throws InterruptedException {
        SeleniumEasyConstants constants= new SeleniumEasyConstants();
        WebDriver driver=constants.launchDriver();
-        return driver;
+       return driver;
 
     }
 
-
-        @Test
+    @Test
     public WebDriver seleniumOne(WebDriver launch) throws InterruptedException {
         driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
         driver.manage().window().maximize();
