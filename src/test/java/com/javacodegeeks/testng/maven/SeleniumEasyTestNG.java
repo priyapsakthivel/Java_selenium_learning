@@ -43,8 +43,7 @@ public class SeleniumEasyTestNG {
     public WebDriver seleniumTwo(WebDriver seleniumOne) throws InterruptedException {
         JavascriptExecutor jse= (JavascriptExecutor)driver;
         jse.executeScript("scrollTo(0,300)");
-        int sum1=12345;
-        int sum2= 23456;
+
         driver.findElement(By.id("sum1")).sendKeys("12345");
         driver.findElement(By.id("sum2")).sendKeys("23456");
         Thread.sleep(300);
