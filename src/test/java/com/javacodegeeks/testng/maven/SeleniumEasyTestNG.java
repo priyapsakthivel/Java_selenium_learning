@@ -12,10 +12,12 @@ import java.io.File;
 import java.util.Scanner;
 
 public class SeleniumEasyTestNG {
-    public WebDriver launch(WebDriver launchDriver) throws InterruptedException {
-       SeleniumEasyConstants constants= new SeleniumEasyConstants();
-       WebDriver driver=constants.launchDriver();
-       return driver;
+    public WebDriver driver;
+    @BeforeTest
+    public WebDriver launchDriver() throws InterruptedException {
+        System.setProperty("webdriver.edge.driver", "P:\\Webdrivers\\edgedriver.exe");
+        driver = new EdgeDriver();
+        return driver;
 
     }
 
@@ -39,6 +41,7 @@ public class SeleniumEasyTestNG {
     }
     @Test
     public WebDriver seleniumTwo(WebDriver seleniumOne) throws InterruptedException {
+        JavascriptExecutor jse= (JavascriptExecutor)driver;
         jse.executeScript("scrollTo(0,300)");
         int sum1=12345;
         int sum2= 23456;
