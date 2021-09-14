@@ -50,7 +50,7 @@ public class SeleniumEasyTestNG {
         driver.findElement(By.xpath("//*[@id=\"gettotal\"]/button")).click();
         String totalSum=driver.findElement(By.id("displayvalue")).getText();
         System.out.println(totalSum);
-        Thread.sleep(5000);
+        Thread.sleep(500);
         return driver;
 
     }
