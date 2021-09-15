@@ -54,6 +54,13 @@ public class SeleniumEasyTestNG {
         return driver;
 
     }
+    @Test
+    public WebDriver seleniumThree(WebDriver seleniumOne) throws InterruptedException {
+        driver.get("https://www.seleniumeasy.com/test/jquery-date-picker-demo.html");
+
+        Thread.sleep(500);
+        return driver;
+    }
 
 
     }
