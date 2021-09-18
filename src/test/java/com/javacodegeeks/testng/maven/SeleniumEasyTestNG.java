@@ -59,7 +59,7 @@ public class SeleniumEasyTestNG {
         driver.get("https://www.seleniumeasy.com/test/jquery-date-picker-demo.html");
         driver.findElement(By.id("from")).click();
         driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[2]/td[4]/a")).click();
-        Thread.sleep(500);
+        Thread.sleep(5000);
         driver.findElement(By.id("to")).click();
         driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[3]/td[6]/a")).click();
         Thread.sleep(300);
