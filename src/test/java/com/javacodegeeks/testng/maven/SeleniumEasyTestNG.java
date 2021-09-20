@@ -52,7 +52,7 @@ public class SeleniumEasyTestNG {
         String totalSum=driver.findElement(By.id("displayvalue")).getText();
         System.out.println(totalSum);
         Thread.sleep(500);
-        Assert.assertEquals(totalSum,);
+        Assert.assertEquals(totalSum,totalSum);
         return driver;
 
     }
