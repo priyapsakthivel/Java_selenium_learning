@@ -64,7 +64,7 @@ public class SeleniumEasyTestNG {
         Thread.sleep(500);
         driver.findElement(By.id("to")).click();
         driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[3]/td[6]/a")).click();
-        Thread.sleep(300);
+        Thread.sleep(3000);
         return driver;
     }
 
