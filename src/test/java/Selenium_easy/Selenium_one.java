@@ -23,7 +23,7 @@ public class Selenium_one {
         driver.findElement(By.xpath("//*[@id=\"get-input\"]/button")).click();
         String content=driver.findElement(By.id("display")).getText();
         System.out.println(content);
-        Thread.sleep(500);
+        Thread.sleep(5000);
         jse.executeScript("scrollTo(0,300)");
         driver.findElement(By.id("sum1")).sendKeys("12345");
         driver.findElement(By.id("sum2")).sendKeys("23456");
